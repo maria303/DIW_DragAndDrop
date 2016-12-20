@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="vendor/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery/jquery-3.1.1.min.js" type="text/javascript"></script>
+        
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css"/>
+        <script src="assets_src/js/puzzle.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-lg-3 ficha" ondrop="onDropPiezaSinPoner(event)" ondragover="onDragOverPiezaSinPoner(event)">
+                <img src="assets_src/img/grid1.png" id="img1" alt="" class="img-responsive" draggable="true" ondragstart="onDragStartPiezaSinPoner(event)"/>
+            </div>
+            <div class="col-lg-3 ficha" ondrop="onDropPiezaSinPoner(event)" ondragover="onDragOverPiezaSinPoner(event)">
+                <img src="assets_src/img/grid2.png" id="img2" alt="" class="img-responsive" draggable="true" ondragstart="onDragStartPiezaSinPoner(event)"/>
+            </div>
+            <div class="col-lg-3 ficha" ondrop="onDropPiezaSinPoner(event)" ondragover="onDragOverPiezaSinPoner(event)">
+                <img src="assets_src/img/grid3.png" id="img3" alt="" class="img-responsive" draggable="true" ondragstart="onDragStartPiezaSinPoner(event)"/>
+            </div>
+            <div class="col-lg-3 ficha" ondrop="onDropPiezaSinPoner(event)" ondragover="onDragOverPiezaSinPoner(event)">
+                <img src="assets_src/img/grid4.png" id="img4" alt="" class="img-responsive" draggable="true" ondragstart="onDragStartPiezaSinPoner(event)"/>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-3 col-lg-offset-3 tablero" ondrop="onDropPiezaPuesta(event)" ondragover="onDragOverPiezaPuesta(event)">
+                    <img src="assets_src/img/white.jpg" id="img5" alt="" draggable="true" ondragstart="onDragStartPiezaPuesta(event)"/>
+                </div>
+                <div class="col-lg-3 tablero" ondrop="onDropPiezaPuesta(event)" ondragover="onDragOverPiezaPuesta(event)">
+                    <img src="assets_src/img/white.jpg" id="img6" alt="" draggable="true" ondragstart="onDragStartPiezaPuesta(event)"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-lg-offset-3 tablero" ondrop="onDropPiezaPuesta(event)" ondragover="onDragOverPiezaPuesta(event)">
+                    <img src="assets_src/img/white.jpg" id="img7" alt="" draggable="true" ondragstart="onDragStartPiezaPuesta(event)"/>
+                </div>
+                <div class="col-lg-3 tablero" ondrop="onDropPiezaPuesta(event)" ondragover="onDragOverPiezaPuesta(event)">
+                    <img src="assets_src/img/white.jpg" id="img8" alt="" draggable="true" ondragstart="onDragStartPiezaPuesta(event)"/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
