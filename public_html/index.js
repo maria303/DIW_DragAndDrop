@@ -1,7 +1,7 @@
 var puzzle = new Puzzle(4);
 
 function onDragStartPieza(event){
-    event.dataTransfer.setData("text", getIdPiezaFromElementPieza(event.target.id));
+    event.dataTransfer.setData("text", getIdPiezaFromElementPieza(event.target));
 };
 
 function onDropHuecoCaja(event){
