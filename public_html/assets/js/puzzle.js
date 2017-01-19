@@ -79,7 +79,7 @@ Puzzle.prototype.quitarPieza = function (idPieza) {
 };
 
 Puzzle.prototype.reset = function () {
-    for (var i = 0; i < numPiezas; i++) {
+    for (var i = 0; i < this.numPiezas; i++) {
         this.estado.push(-(i + 1));
     }
 };
